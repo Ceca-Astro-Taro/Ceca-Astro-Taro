@@ -29,6 +29,13 @@
             padding: 0 !important;
         }
     </style>
+    <style>
+        @media only screen and (max-width: 768px) {
+            #site-header {
+                display: none;
+            }
+        }
+    </style>
     <style id="classic-theme-styles-inline-css">
         /*! This file is auto-generated */
         .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
@@ -118,12 +125,13 @@
 
 
 
-                    <div id="site-logo" class="clr" itemscope itemtype="https://schema.org/Brand">
+                    <div id="site-logo" style="position: relative; z-index: 9999; " class="clr" itemscope itemtype="https://schema.org/Brand">
 
 
-                        <div id="site-logo-inner" class="clr">
+                        <div id="site-logo-inner" class="clr" >
 
                             <a href="https://ceca-astro-taro.github.io/Ceca-Astro-Taro/" rel="home" class="site-title site-logo-text" style="color:#;">Ceca Astro Taro</a>
+
 
                         </div><!-- #site-logo-inner -->
 
@@ -473,25 +481,10 @@
 
 
                 <div id="footer-widgets" class="oceanwp-row clr">
-                    <center
-                    <h1 style="color: white;">Visit Us On Youtube</h1>
-                    </center>
-                    <div class="footer-widgets-inner container">
-
-                        <div class="footer-box span_1_of_4 col col-1">
-                        </div><!-- .footer-one-box -->
-
-                        <div class="footer-box span_1_of_4 col col-2">
-                        </div><!-- .footer-one-box -->
-
-                        <div class="footer-box span_1_of_4 col col-3 ">
-                        </div><!-- .footer-one-box -->
-
-                        <div class="footer-box span_1_of_4 col col-4">
-                        </div><!-- .footer-box -->
 
 
-                    </div><!-- .container -->
+
+
 
 
                 </div><!-- #footer-widgets -->
